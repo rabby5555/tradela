@@ -1,0 +1,250 @@
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-infos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .topbar {
+    font-size: 11px;
+  }
+
+  .contact-info {
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+  }
+
+    .contact-infos {
+    font-size: 9px;
+  }
+
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
+
+
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .estimate-btn {
+    width: 100%;
+
+  }
+
+  .estimate-btn a {
+    justify-content: center;
+
+  }
+
+
+}
+
+/* hero section */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+}
+
+/* feature sectito */
+@media screen and (max-width: 768px) {
+  .feature-section {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .feature {
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 10px 20px;
+
+  }
+
+  .feature img {
+    width: 50px;
+    /* adjust size for smaller screens */
+    height: 50px;
+  }
+
+  .feature h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .feature p {
+    font-size: 15px;
+    color: #777;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feature-section {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .feature {
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0px 0px;
+
+  }
+
+  .feature img {
+    width: 50px;
+    /* adjust size for smaller screens */
+    height: 50px;
+  }
+
+  .feature h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .feature p {
+    font-size: 14px;
+    color: #777;
+  }
+}
+
+/* why-anacar */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .why-anncar-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  .text-box h2 {
+    font-size: 26px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+padding-right: 5px;
+  }
+
+
+  .image-box img {
+    max-width: 290px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .why-anncar-section {
+    padding: 40px 10px;
+  }
+
+  .text-box h2 {
+    font-size: 25px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+  }
+
+  .image-box img {
+    max-width: 250px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .card p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+/* parts section */
+
+@media (max-width: 450px) {
+  .parts-section {
+    padding: 50px 15px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .card p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+/* footer section */
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .footer-section.contact i {
+    align-items: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer-section.contact p {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
